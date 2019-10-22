@@ -1,0 +1,9 @@
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#sibling-1 {
+  display: inline-block;
+  vertical-align: calc(0);
+}
