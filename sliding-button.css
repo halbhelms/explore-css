@@ -1,0 +1,41 @@
+.button {
+  background: #f6bc00 no-repeat -12px center;
+  overflow: hidden;
+  padding: 5px 8px 3px 8px;
+  transition: padding .2s ease, background-position .2s ease, transform .5s ease;
+}
+
+.button:span {
+  margin: 0;
+  padding: 0;
+}
+
+.button:hover {
+  background-position: 5px center;
+  padding-left: 95px;
+  transform: scale(1, 1);
+}
+
+.button span:nth-child(1) {
+  position: absolute;
+  left: -70px;
+}
+
+.button:hover span:nth-child(1) {
+  left: 20px;
+}
+
+/* PRESENTATION */
+body {
+  align-items: center;
+  background: #333;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.button:nth-child(1) {
+  margin-right: 1em;
+}
+
+Resources1×0.5×0.25×Rerun
