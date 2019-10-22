@@ -1,0 +1,9 @@
+a {
+  font-size: 2rem;
+  color: orange;
+}
+
+a:hover,
+a:focus {
+  filter: hue-rotate(180deg)
+}
